@@ -6,7 +6,7 @@
 /*   By: anisabel <anisabel@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/10 16:27:18 by mefische          #+#    #+#             */
-/*   Updated: 2026/01/11 20:23:27 by anisabel         ###   ########.fr       */
+/*   Updated: 2026/01/11 20:32:59 by anisabel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -89,14 +89,11 @@ char	*ft_gnlstrndup(char *s, size_t line_len);
 char	*ft_gnlstrjoin(char *s1, char *s2);
 
 int		ft_printf(const char *f, ...);
-
-#endif
-/* //printf
-int		ft_printf(const char *f, ...);
 int		ft_putchar(char c);
 int		ft_putstr(char *s);
 int		ft_putnbr(int n);
-int		ft_unsig_putnbr(unsigned int n);
+int		ft_unsign(unsigned int n);
 int		ft_printhexa(unsigned long n, char *base);
 int		ft_pointer(void *ptr);
- */
+
+#endif

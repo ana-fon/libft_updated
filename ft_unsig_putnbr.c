@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_unsig_putnbr.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mefische <mefische@student.42porto.com>    +#+  +:+       +#+        */
+/*   By: anisabel <anisabel@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/02 12:10:17 by mefische          #+#    #+#             */
-/*   Updated: 2025/07/02 11:54:38 by mefische         ###   ########.fr       */
+/*   Updated: 2026/01/11 20:32:05 by anisabel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_unsig_putnbr(unsigned int n)
+int	ft_unsign_putnbr(unsigned int n)
 {
 	int	count;
 
