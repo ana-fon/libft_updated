@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mefische <mefische@student.42porto.com>    +#+  +:+       +#+        */
+/*   By: anisabel <anisabel@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/10 16:27:18 by mefische          #+#    #+#             */
-/*   Updated: 2025/07/02 13:17:38 by mefische         ###   ########.fr       */
+/*   Updated: 2026/01/11 20:23:27 by anisabel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,7 +43,7 @@ int		ft_tolower(int c);
 char	*ft_strchr(const char *s, int c);
 char	*ft_strrchr(const char *s, int c);
 int		ft_strcmp(const char *s1, const char *s2);
-int	ft_strncmp(const char *s1, const char *s2, size_t n);
+int		ft_strncmp(const char *s1, const char *s2, size_t n);
 void	*ft_memchr(const void *s, int c, size_t n);
 int		ft_memcmp(const void *s1, const void *s2, size_t n);
 char	*ft_strnstr(const char *big, const char *little, size_t len);
@@ -88,13 +88,15 @@ int		ft_gnlstrchr(const char *s, int c);
 char	*ft_gnlstrndup(char *s, size_t line_len);
 char	*ft_gnlstrjoin(char *s1, char *s2);
 
-//printf
-int	ft_printf(const char *f, ...);
-int	ft_putchar(char c);
-int	ft_putstr(char *s);
-int	ft_putnbr(int n);
-int	ft_unsig_putnbr(unsigned int n);
-int	ft_printhexa(unsigned long n, char *base);
-int	ft_pointer(void *ptr);
+int		ft_printf(const char *f, ...);
 
 #endif
+/* //printf
+int		ft_printf(const char *f, ...);
+int		ft_putchar(char c);
+int		ft_putstr(char *s);
+int		ft_putnbr(int n);
+int		ft_unsig_putnbr(unsigned int n);
+int		ft_printhexa(unsigned long n, char *base);
+int		ft_pointer(void *ptr);
+ */

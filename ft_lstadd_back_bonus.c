@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstadd_back_bonus.c                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mefische <mefische@student.42porto.com>    +#+  +:+       +#+        */
+/*   By: anisabel <anisabel@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/23 17:40:03 by mefische          #+#    #+#             */
-/*   Updated: 2025/07/01 16:28:43 by mefische         ###   ########.fr       */
+/*   Updated: 2026/01/11 20:27:06 by anisabel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
