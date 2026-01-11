@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mefische <mefische@student.42porto.com>    +#+  +:+       +#+        */
+/*   By: anisabel <anisabel@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/29 14:14:53 by mefische          #+#    #+#             */
-/*   Updated: 2025/07/02 11:51:14 by mefische         ###   ########.fr       */
+/*   Updated: 2026/01/11 20:41:16 by anisabel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ static int	ft_check(char format, va_list ap)
 	else if (format == 'd' || format == 'i')
 		return (ft_putnbr(va_arg(ap, int)));
 	else if (format == 'u')
-		return (ft_unsig_putnbr(va_arg(ap, unsigned int)));
+		return (ft_unsign_putnbr(va_arg(ap, unsigned int)));
 	else if (format == 'x')
 		return (ft_printhexa(va_arg(ap, unsigned int), "0123456789abcdef"));
 	else if (format == 'X')
