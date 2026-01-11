@@ -6,7 +6,7 @@
 /*   By: anisabel <anisabel@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/10 16:27:18 by mefische          #+#    #+#             */
-/*   Updated: 2026/01/11 20:32:59 by anisabel         ###   ########.fr       */
+/*   Updated: 2026/01/11 20:47:22 by anisabel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -92,7 +92,7 @@ int		ft_printf(const char *f, ...);
 int		ft_putchar(char c);
 int		ft_putstr(char *s);
 int		ft_putnbr(int n);
-int		ft_unsign(unsigned int n);
+int		ft_unsign_putnbr(unsigned int n);
 int		ft_printhexa(unsigned long n, char *base);
 int		ft_pointer(void *ptr);
 
