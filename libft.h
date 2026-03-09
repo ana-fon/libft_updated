@@ -6,7 +6,7 @@
 /*   By: anisabel <anisabel@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/10 16:27:18 by mefische          #+#    #+#             */
-/*   Updated: 2026/01/13 16:53:09 by anisabel         ###   ########.fr       */
+/*   Updated: 2026/03/09 01:52:24 by anisabel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,6 +64,7 @@ void	ft_putendl_fd(char *s, int fd);
 void	ft_putnbr_fd(int n, int fd);
 void	ft_nl(void);
 void	ft_nl_fd(int fd);
+char	*ft_str_ndup(char const *s1, int n);
 
 //free
 
